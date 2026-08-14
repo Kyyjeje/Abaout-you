@@ -1,4 +1,3 @@
-JAVA
 const audio = document.getElementById("audio-player");
 const playerCard = document.getElementById("player-card");
 const playBtn = document.getElementById("play-btn");
