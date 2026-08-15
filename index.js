@@ -156,7 +156,7 @@ playBtn.addEventListener("click", () => {
             playerCard.classList.add("mini"); 
             
             clearInterval(chatInterval);
-            chatInterval = setInterval(spawnChat, 5000); // Diubah menjadi 4 detik sekali
+            chatInterval = setInterval(spawnChat, 4000); // Diubah menjadi 4 detik sekali
             
             setTimeout(() => {
                 currentIndex = 0; 
